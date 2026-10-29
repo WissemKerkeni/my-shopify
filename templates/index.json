@@ -1,0 +1,467 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "featured_product_amiJBx": {
+      "type": "featured-product",
+      "blocks": {
+        "text_jcLcER": {
+          "type": "text",
+          "settings": {
+            "text": "Produit phare · Livraison offerte",
+            "text_style": "uppercase"
+          }
+        },
+        "title_LzjfeE": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_QKRVAF": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_FymALA": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_6bPUV8": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_wMHe8i": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_nEy6np": {
+          "type": "share",
+          "settings": {
+            "share_label": "Partager"
+          }
+        }
+      },
+      "block_order": [
+        "text_jcLcER",
+        "title_LzjfeE",
+        "price_QKRVAF",
+        "variant_picker_FymALA",
+        "quantity_selector_6bPUV8",
+        "buy_buttons_wMHe8i",
+        "share_nEy6np"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "protege-tibias-ski-alpiguard",
+        "color_scheme": "scheme-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_JQjqNb": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "accessoires-ski-alpiguard",
+        "products_to_show": 8,
+        "title": "Les indispensables de la saison",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_xBkBiP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GNRzA4": {
+          "type": "column",
+          "settings": {
+            "title": "Julien M., Annecy",
+            "text": "<p>« Je skie 20 jours par an et j'avais des bleus systématiquement. Première semaine avec AlpiGuard : rien. »</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_e9fJRJ": {
+          "type": "column",
+          "settings": {
+            "title": "Sophie L., Lyon",
+            "text": "<p>« Achetés pour mon fils de 13 ans qui pleurait le soir à cause de ses chaussures. Problème réglé. »</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VaBCmA": {
+          "type": "column",
+          "settings": {
+            "title": "Marc D., Grenoble",
+            "text": "<p>« Très fins, on ne les sent pas dans la chaussure. J'ai pu resserrer mes boucles d'un cran. »</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GNRzA4",
+        "column_e9fJRJ",
+        "column_VaBCmA"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "ILS EN PARLENT",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "disabled": true
+    },
+    "collapsible_content_Tdfh66": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_6wKArL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Est-ce que ça tient dans la chaussure ?",
+            "icon": "check_mark",
+            "row_content": "<p>Le manchon se porte sur la chaussette et la chaussure se ferme normalement.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_g6wnFc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quelle taille choisir ?",
+            "icon": "ruler",
+            "row_content": "<p>M jusqu'à 65 kg, L jusqu'à 75 kg, XL jusqu'à 100 kg. Entre deux tailles, choisir la plus grande.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_R3cxFx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Et pour le snowboard ?",
+            "icon": "snowflake",
+            "row_content": "<p>Oui, AlpiGuard convient aussi au snowboard.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tVbHzN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Délai de livraison ?",
+            "icon": "truck",
+            "row_content": "<p>7 à 12 jours ouvrés, livraison offerte en France.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HHraT7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Et si ça ne me convient pas ?",
+            "icon": "return",
+            "row_content": "<p>30 jours pour nous les renvoyer, remboursés intégralement.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_6wKArL",
+        "collapsible_row_g6wnFc",
+        "collapsible_row_R3cxFx",
+        "collapsible_row_tVbHzN",
+        "collapsible_row_HHraT7"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Questions fréquentes",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_univers": {
+      "type": "collection-list",
+      "blocks": {
+        "c1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "protection-confort"
+          }
+        },
+        "c2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chaleur"
+          }
+        },
+        "c3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "textile-ski"
+          }
+        },
+        "c4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "transport-rangement"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "settings": {
+        "title": "Explorez nos univers",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 20
+      }
+    },
+    "ag_hero": {
+      "type": "ag-hero",
+      "settings": {
+        "image": "shopify://shop_images/alpiguard-tibias-lifestyle.png",
+        "focal": "center",
+        "height": 82,
+        "overlay": 85,
+        "eyebrow": "Accessoires de ski · Saison 2026/27",
+        "heading": "Skiez toute la journée sans douleur aux tibias",
+        "text": "Protège-tibias, gants et chaussettes chauffants : tout pour profiter de chaque descente, du premier au dernier télésiège.",
+        "btn1_label": "Découvrir le protège-tibias",
+        "btn1_link": "shopify://products/protege-tibias-ski-alpiguard",
+        "btn2_label": "Voir la collection",
+        "btn2_link": "shopify://collections/all",
+        "trust1": "Livraison offerte en France",
+        "trust2": "Satisfait ou remboursé 30 jours",
+        "trust3": "Paiement en plusieurs fois",
+        "layout": "split",
+        "highlight": "sans douleur"
+      }
+    },
+    "ag_trust": {
+      "type": "ag-trust-bar",
+      "settings": {
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "t1": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "title": "Livraison offerte",
+            "text": "France métropolitaine, 7 à 12 jours"
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "title": "30 jours pour changer d’avis",
+            "text": "Remboursement intégral"
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "icon": "lock",
+            "title": "Paiement sécurisé",
+            "text": "CB, PayPal, Apple Pay"
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "icon": "card",
+            "title": "Payez en plusieurs fois",
+            "text": "Avec Klarna"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    "ag_story": {
+      "type": "ag-story",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "image": "shopify://shop_images/alpiguard-lifestyle-chalet.jpg",
+        "image_right": false,
+        "tag": "Fini les bleus",
+        "eyebrow": "Ce n’est pas vous, c’est la chaussure",
+        "heading": "La languette appuie sur 5 cm de tibia. Toute la journée.",
+        "text": "<p>Chaque virage concentre la pression de la jambe sur une toute petite zone. Résultat : douleur, bleus, chaussures desserrées et ski moins précis.</p><p>Les protège-tibias AlpiGuard répartissent cette pression grâce à une mousse EVA haute densité. Vous serrez vos chaussures comme il faut, et vous skiez jusqu’à la fermeture des pistes.</p>",
+        "btn_label": "Je veux skier sans douleur",
+        "btn_link": "shopify://products/protege-tibias-ski-alpiguard"
+      },
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "number": "60 g",
+            "label": "la paire : on l’oublie dans la chaussure"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "number": "10 s",
+            "label": "pour l’enfiler sur la chaussette"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "number": "30 j",
+            "label": "pour l’essayer sans risque"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    "ag_benefits": {
+      "type": "ag-benefits",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "eyebrow": "Pourquoi AlpiGuard",
+        "heading": "Pensé pour vos journées sur les pistes",
+        "text": "Une sélection courte d’accessoires vraiment utiles pour skier plus longtemps, au chaud et sans douleur."
+      },
+      "blocks": {
+        "b1": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shield",
+            "title": "Confort & protection",
+            "text": "Protège-tibias et manchons gel pour en finir avec les points de pression."
+          }
+        },
+        "b2": {
+          "type": "benefit",
+          "settings": {
+            "icon": "flame",
+            "title": "Chaleur toute la journée",
+            "text": "Gants, chaussettes et semelles chauffants rechargeables."
+          }
+        },
+        "b3": {
+          "type": "benefit",
+          "settings": {
+            "icon": "feather",
+            "title": "Léger et discret",
+            "text": "Des accessoires fins qui se glissent sous l’équipement, sans gêne."
+          }
+        },
+        "b4": {
+          "type": "benefit",
+          "settings": {
+            "icon": "chat",
+            "title": "Un vrai service client",
+            "text": "Une question avant ou après l’achat ? Écrivez-nous, on vous répond par e-mail."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ]
+    },
+    "ag_cta": {
+      "type": "ag-cta-band",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "eyebrow": "Vacances de Noël",
+        "heading": "Commandez avant le 20 novembre",
+        "text": "Livraison offerte en 7 à 12 jours ouvrés : vos accessoires arrivent bien avant le départ au ski.",
+        "btn_label": "Voir tous les produits",
+        "btn_link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "ag_hero",
+    "ag_trust",
+    "collection_list_univers",
+    "featured_product_amiJBx",
+    "ag_story",
+    "featured_collection_JQjqNb",
+    "ag_benefits",
+    "collapsible_content_Tdfh66",
+    "ag_cta",
+    "multicolumn_xBkBiP"
+  ]
+}

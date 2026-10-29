@@ -1,0 +1,15 @@
+<section class="ag-trust color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width">
+    <ul class="ag-trust__list" role="list">
+      {%- for block in section.blocks -%}
+        <li class="ag-trust__item" {{ block.shopify_attributes }}>
+          <span class="ag-trust__icon">{% render 'ag-icon', icon: block.settings.icon, size: 24 %}</span>
+          <span class="ag-trust__txt"><strong>{{ block.settings.title }}</strong><small>{{ block.settings.text }}</small></span>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+{% schema %}
+{"name":"AG Réassurance","settings":[{"type":"color_scheme","id":"color_scheme","label":"Couleurs","default":"scheme-1"}],"blocks":[{"type":"item","name":"Élément","settings":[{"type":"select","id":"icon","label":"Icône","options":[{"value":"truck","label":"Camion"},{"value":"return","label":"Retour"},{"value":"lock","label":"Cadenas"},{"value":"card","label":"Carte"},{"value":"shield","label":"Bouclier"},{"value":"snow","label":"Flocon"},{"value":"mountain","label":"Montagne"},{"value":"feather","label":"Plume"},{"value":"flame","label":"Flamme"},{"value":"chat","label":"Message"},{"value":"check","label":"Coche"},{"value":"star","label":"Etoile"}],"default":"truck"},{"type":"text","id":"title","label":"Titre","default":"Titre"},{"type":"text","id":"text","label":"Texte"}]}],"max_blocks":4,"presets":[{"name":"AG Réassurance"}]}
+{% endschema %}
